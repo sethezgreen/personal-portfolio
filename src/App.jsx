@@ -1,14 +1,16 @@
-import { useState } from 'react'
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
-import Layout from './components/Layout/Layout'
+import NavBar from './components/NavBar/NavBar'
+import Home from './components/Home'
 
 function App() {
 
   return (
     <>
+    <NavBar />
       <Routes>
-        <Route path='/' element={<Layout />} />
+        <Route path='/' element={<Home />} />
+        {/* <Route path='/about' element={<About />} /> */}
       </Routes>
     </>
   )
