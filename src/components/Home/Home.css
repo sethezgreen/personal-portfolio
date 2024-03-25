@@ -1,0 +1,33 @@
+.home {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    gap: 5rem;
+}
+
+.profile_picture_container {
+    align-self: center;
+    align-items: center;
+}
+
+#profile_picture {
+    width: 300px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+#title {
+    font-size: 3rem;
+}
+
+.socials_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.icon {
+    height: 2rem;
+    color: black;
+}

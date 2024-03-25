@@ -1,17 +1,20 @@
 import "./NavBar.css"
 import { NavLink } from "react-router-dom"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faClipboard, faEnvelope, faFile, faFileLines, faHome, faSquareEnvelope, faUser } from "@fortawesome/free-solid-svg-icons"
-import { faGithub, faLinkedin, faMailchimp, faPage4 } from "@fortawesome/free-brands-svg-icons"
+import { faClipboard, faFileLines, faHome,  faUser } from "@fortawesome/free-solid-svg-icons"
+
 
 const NavBar = () => {
 
     return (
-        <div className="nav-bar">
-            <nav>
+        <nav className="nav-bar">
+            <div id="logo">
+                <p>Seth Green</p>
+            </div>
+            <div className="nav-links">
                 <NavLink exact="true" activeClassName="active" className="nav-link" to="/">
-                    <FontAwesomeIcon icon={faHome} /><span className="marin-left">Home</span>
-                    
+                    <FontAwesomeIcon icon={faHome} />
+                    Home
                 </NavLink>
                 <NavLink exact="true" activeClassName="active" className="nav-link" to="/about">
                     <FontAwesomeIcon icon={faUser} />
@@ -25,12 +28,9 @@ const NavBar = () => {
                     <FontAwesomeIcon icon={faFileLines} />
                     Resume
                 </NavLink>
-                <NavLink>
-                    <FontAwesomeIcon icon={faEnvelope} />
-                    Connect
-                </NavLink>
-            </nav>
-        </div>
+            </div>
+            
+        </nav>
     )
 }
 
