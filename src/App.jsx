@@ -1,18 +1,18 @@
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
 import NavBar from './components/NavBar/NavBar'
-import Home from './components/Home/Home'
+import Index from './views/Index'
 
 function App() {
 
   return (
-    <>
-    <NavBar />
+    <div className='App'>
+      <NavBar />
       <Routes>
-        <Route path='/' element={<Home />} />
-        {/* <Route path='/about' element={<About />} /> */}
+        <Route path='/' element={<Index />} />
+        <Route path='*' element={<div>404 Not Found</div>} />
       </Routes>
-    </>
+    </div>
   )
 }
 

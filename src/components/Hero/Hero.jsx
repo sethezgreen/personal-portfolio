@@ -1,12 +1,12 @@
 import React from 'react'
-import './Home.css'
+import './Hero.css'
 import profile_picture from '../../assets/profile_picture.jpeg'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
 const Home = () => {
     return (
-        <section className='home'>
+        <section className='home' id='hero'>
             <div className='profile_picture_container'>
                 <img src={profile_picture} alt="pfp" id='profile_picture'/>
             </div>

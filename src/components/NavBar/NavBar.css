@@ -1,9 +1,15 @@
-.nav-bar {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 10rem;
+    padding: 15px 85px;
+    background: white;
+    box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
     height: 17vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 #logo {
@@ -22,4 +28,5 @@
     margin-left: 15px;
     display: flex;
     gap: 0.25rem;
+    cursor: pointer;
 }
