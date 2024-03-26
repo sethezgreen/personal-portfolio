@@ -60,7 +60,7 @@ const NavBar = () => {
                     activeClass="navbar--active-content"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={-10}
                     duration={500}
                     to="about"
                     className="nav-link"
@@ -73,7 +73,7 @@ const NavBar = () => {
                     activeClass="navbar--active-content"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={-10}
                     duration={500}
                     to="projects"
                     className="nav-link"

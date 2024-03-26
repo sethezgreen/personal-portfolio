@@ -1,8 +1,14 @@
-.home {
+.hero--section {
     display: flex;
     justify-content: center;
-    height: 80vh;
     gap: 5rem;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 133.333px 85.333px 133.333px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    background-color: var(--bg-shade); */
 }
 
 .profile_picture_container {

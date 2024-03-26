@@ -6,7 +6,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
 const Home = () => {
     return (
-        <section className='home' id='hero'>
+        <section className='hero--section' id='hero'>
             <div className='profile_picture_container'>
                 <img src={profile_picture} alt="pfp" id='profile_picture'/>
             </div>

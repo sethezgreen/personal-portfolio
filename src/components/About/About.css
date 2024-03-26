@@ -1,6 +1,6 @@
 .about--section {
     display: grid;
-    padding: 133.3px 85.3px;
+    padding: 0 85.3px;
     align-items: center;
     gap: 114px;
     grid-template-columns: repeat(2, 1fr);
