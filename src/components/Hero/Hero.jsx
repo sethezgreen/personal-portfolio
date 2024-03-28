@@ -11,9 +11,9 @@ const Home = () => {
                 <img src={profile_picture} alt="pfp" id='profile_picture'/>
             </div>
             <div className='section_text'>
-                <p>Hello, I'm</p>
+                <p className='hero--heading'>Hello, I'm</p>
                 <h1 id='title'>Seth Green</h1>
-                <p>Full Stack Developer</p>
+                <p className='hero--heading'>Full Stack Developer</p>
                 <div className='socials_container'>
                     <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/sethezgreen/">
                         <FontAwesomeIcon icon={faLinkedin} className='icon'/>
