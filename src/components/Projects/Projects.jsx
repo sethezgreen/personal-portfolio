@@ -25,9 +25,13 @@ const Projects = () => {
               <button className="text-sm portfolio--link" onClick={() => window.open(`${item.gitlink}`, "nofererror")}>
                 GitHub
               </button>
-              <button className="text-sm portfolio--link">
+              {
+                item.demolink?<button className="text-sm portfolio--link">
                 Live Demo
-              </button>
+              </button>:
+              null
+              }
+              
             </div>
           </div>
         ))}
