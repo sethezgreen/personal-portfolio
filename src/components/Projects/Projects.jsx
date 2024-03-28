@@ -15,18 +15,18 @@ const Projects = () => {
         {data?.portfolio?.map((item, index) => (
           <div key={index} className="portfolio--section--card">
             <div className="portfolio--section--img">
-              <img src={item.src} alt="Placeholder" />
+              {/* <img src={item.src} alt="Placeholder" /> */}
             </div>
             <div className="portfolio--section--card--content">
               <div>
                 <h3 className="portfolio--section--title">{item.title}</h3>
                 <p className="text-md">{item.description}</p>
               </div>
-              <button className="text-sm portfolio--link" onClick={() => window.open(`${item.gitlink}`, "nofererror")}>
+              <button className="text-sm portfolio--link btn" onClick={() => window.open(`${item.gitlink}`, "nofererror")}>
                 GitHub
               </button>
               {
-                item.demolink?<button className="text-sm portfolio--link">
+                item.demolink?<button className="text-sm portfolio--link btn">
                 Live Demo
               </button>:
               null

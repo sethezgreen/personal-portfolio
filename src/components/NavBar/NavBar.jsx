@@ -7,6 +7,7 @@ import { useEffect, useState } from "react"
 
 const NavBar = () => {
     const [navActive, setNavActive] = useState(false)
+    const [isClicked, setIsClicked] = useState(false)
     
     const toggleNav = () => {
         setNavActive(!navActive)
@@ -35,6 +36,14 @@ const NavBar = () => {
             closeMenu
         }
     }, [])
+
+    const darkmode = () => {
+        let element = document.body
+
+        element.classList.toggle("dark")
+
+        setIsClicked(isClicked => !isClicked)
+    }
 
     return (
         <nav className={`navbar ${navActive ? "active" : ""} `}>
@@ -81,19 +90,16 @@ const NavBar = () => {
                     <FontAwesomeIcon icon={faClipboard} />
                     Projects
                 </Link>
-                <Link 
-                    onClick={closeMenu}
-                    activeClass="navbar--active-content"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                    to="resume"
+                <a
+                    onClick={() => window.open('https://docs.google.com/document/d/e/2PACX-1vQkTGCD4vFyWcBvWhBiig9-AKgMknzKnEy1P3ZeXA4cjxbxI5nbzhat_0vu7FJoP9QCwYgOKi2CJyPT/pub')}
                     className="nav-link"
                 >
                     <FontAwesomeIcon icon={faFileLines} />
                     Resume
-                </Link>
+                </a>
+                <button className="dark-mode-btn" onClick={darkmode}>
+                    {isClicked ? "☼" : "☾"}
+                </button>
             </div>
             
         </nav>

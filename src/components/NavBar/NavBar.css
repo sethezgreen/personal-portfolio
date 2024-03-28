@@ -3,8 +3,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px 85px;
-    background: white;
-    box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
+    background: var(--nav);
+    /* box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1); */
+    box-shadow: 0px 5.333px 80px 0 var(--shadow);
     /* height: 17vh; */
     position: fixed;
     top: 0;
@@ -24,9 +25,16 @@
 .nav-link {
     text-decoration: none;
     font-size: 1.5rem;
-    color: black;
+    color: var(--icon);
     margin-left: 15px;
     display: flex;
     gap: 0.25rem;
     cursor: pointer;
+}
+
+.dark-mode-btn {
+    width: 2rem;
+    padding: 0 0.5rem;
+    color: var(--icon);
+    background-color: var(--nav);
 }

@@ -36,9 +36,10 @@
     align-items: flex-start;
     gap: 32px;
     flex: 1 0 0;
-    background: #fff;
-    box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
-    cursor: pointer;
+    background: var(--nav);
+    /* box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15); */
+    box-shadow: 0 0 32px 0 var(--shadow);
+    /* cursor: pointer; */
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 }
@@ -60,11 +61,19 @@
     text-decoration: none;
     display: flex;
     gap: 16px;
-    border-bottom: 1.33px solid var(--primary);
+    /* border-bottom: 1.33px solid var(--primary); */
     padding-bottom: 10.6px;
     font-weight: 600;
 }
 
 .portfolio--section--card:hover path {
     stroke: #006b6a;
+}
+
+.btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 0.5rem;
+    width: 4rem;
+    border-radius: 2rem;
 }

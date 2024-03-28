@@ -35,5 +35,5 @@
 
 .icon {
     height: 2rem;
-    color: black;
+    color: var(--icon);
 }

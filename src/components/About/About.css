@@ -4,4 +4,5 @@
     align-items: center;
     gap: 114px;
     grid-template-columns: repeat(2, 1fr);
+    width: 100%;
 }
