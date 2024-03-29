@@ -40,5 +40,5 @@
 }
 
 .navbar--active-content {
-    color: blue;
+    color: var(--active-nav);
 }

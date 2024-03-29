@@ -19,6 +19,7 @@ body {
     --black: #000000;
     --white: #ffffff;
     --nav: var(--white);
+    --active-nav: #136469;
     --icon: var(--black);
     --shadow: rgba(0, 0, 0, 0.15);
 }
