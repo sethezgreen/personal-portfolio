@@ -38,3 +38,7 @@
     color: var(--icon);
     background-color: var(--nav);
 }
+
+.navbar--active-content {
+    color: blue;
+}

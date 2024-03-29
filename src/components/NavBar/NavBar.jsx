@@ -1,7 +1,7 @@
 import "./NavBar.css"
 import { Link } from "react-scroll"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faClipboard, faFileLines, faHome,  faUser } from "@fortawesome/free-solid-svg-icons"
+import { faClipboard, faEnvelope, faFileLines, faHome,  faUser } from "@fortawesome/free-solid-svg-icons"
 import { useEffect, useState } from "react"
 
 
@@ -90,13 +90,19 @@ const NavBar = () => {
                     <FontAwesomeIcon icon={faClipboard} />
                     Projects
                 </Link>
-                <a
-                    onClick={() => window.open('https://docs.google.com/document/d/e/2PACX-1vQkTGCD4vFyWcBvWhBiig9-AKgMknzKnEy1P3ZeXA4cjxbxI5nbzhat_0vu7FJoP9QCwYgOKi2CJyPT/pub')}
+                <Link 
+                    onClick={closeMenu}
+                    activeClass="navbar--active-content"
+                    spy={true}
+                    smooth={true}
+                    offset={-10}
+                    duration={500}
+                    to="contact"
                     className="nav-link"
                 >
-                    <FontAwesomeIcon icon={faFileLines} />
-                    Resume
-                </a>
+                    <FontAwesomeIcon icon={faEnvelope} />
+                    Contact
+                </Link>
                 <button className="dark-mode-btn" onClick={darkmode}>
                     {isClicked ? "☼" : "☾"}
                 </button>

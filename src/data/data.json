@@ -2,33 +2,27 @@
     "skills": [
       {
         "id": "1",
-        "src": "./img/product-chain-1.png",
+        "src": "",
         "title": "Front-End",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
       },
       {
         "id": "2",
-        "src": "./img/tag-1.png",
+        "src": "",
         "title": "Back-End",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
       },
       {
         "id": "3",
-        "src": "./img/feather-pen-2.png",
-        "title": "UI & UX Design",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-      },
-      {
-        "id": "4",
-        "src": "./img/feather-pen-1.png",
-        "title": "Webflow Development",
+        "src": "",
+        "title": "Database",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
       }
     ],
     "portfolio": [
       {
         "id": "1",
-        "src": "./img/placeholder-image.png",
+        "src": "",
         "title": "RecipeShare",
         "description": "Social platform for sharing recipes.",
         "gitlink": "https://github.com/sethezgreen/solo-project",
@@ -36,7 +30,7 @@
       },
       {
         "id": "2",
-        "src": "./img/placeholder-image-1.png",
+        "src": "",
         "title": "DineSpotter",
         "description": "Review platform for your favorite restaurants.",
         "gitlink": "https://github.com/sethezgreen/DineSpotter",
@@ -44,7 +38,7 @@
       },
       {
         "id": "3",
-        "src": "./img/placeholder-image-2.png",
+        "src": "",
         "title": "Spending Tracker",
         "description": "Simple React app for managing monthly spending.",
         "gitlink": "https://github.com/sethezgreen/spending-tracker",
