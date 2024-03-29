@@ -23,7 +23,7 @@ const Home = () => {
                     </a>
                     <button
                         onClick={() => window.open('https://docs.google.com/document/d/e/2PACX-1vQkTGCD4vFyWcBvWhBiig9-AKgMknzKnEy1P3ZeXA4cjxbxI5nbzhat_0vu7FJoP9QCwYgOKi2CJyPT/pub')}
-                        className="btn"
+                        className="resume-btn"
                     >
                         Resume
                     </button>
