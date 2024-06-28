@@ -4,10 +4,7 @@ import './Contact.css'
 const Contact = () => {
     return (
         <section className="contact--section" id="contact">
-            <div>
-                <p className="sub--title">Get In Touch</p>
                 <h2>Contact Me</h2>
-            </div>
             <form className="contact--form--container">
                 <div className="container">
                 <label htmlFor="first-name" className="contact--label">
