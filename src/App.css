@@ -1,5 +1,11 @@
+.content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    margin-bottom: 10%;
+}
+
 section {
-    /* padding-top: 4vh; */
     height: 96vh;
     margin: 0 10rem;
     box-sizing: border-box;
@@ -15,7 +21,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 21px;
+    /* gap: 21px; */
 }
 
 .section--title {

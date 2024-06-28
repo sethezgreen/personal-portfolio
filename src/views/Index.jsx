@@ -6,12 +6,12 @@ import Contact from '../components/Contact/Contact'
 
 const Index = () => {
     return (
-        <>
+        <div className='content-container'>
             <Hero />
             <About />
             <Projects />
-            <Contact />
-        </>
+            {/* <Contact /> */}
+        </div>
     )
 }
 
