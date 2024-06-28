@@ -23,24 +23,24 @@
       {
         "id": "1",
         "src": "",
-        "title": "RecipeShare",
-        "description": "Social platform for sharing recipes.",
+        "title": "Recipe Share",
+        "description": "Social platform for sharing recipes! Post recipes, follow other users, and save other recipes.",
         "gitlink": "https://github.com/sethezgreen/solo-project",
         "demolink": ""
       },
       {
         "id": "2",
         "src": "",
-        "title": "DineSpotter",
-        "description": "Review platform for your favorite restaurants.",
+        "title": "Dine Spotter",
+        "description": "Review platform for your favorite restaurants!",
         "gitlink": "https://github.com/sethezgreen/DineSpotter",
         "demolink": ""
       },
       {
         "id": "3",
         "src": "",
-        "title": "Spending Tracker",
-        "description": "Simple React app for managing monthly spending.",
+        "title": "Track It",
+        "description": "Simple React SPA for managing your spending. Add different months to track and input transactions to follow your budget.",
         "gitlink": "https://github.com/sethezgreen/spending-tracker",
         "demolink": ""
       }
